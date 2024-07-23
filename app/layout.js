@@ -1,7 +1,7 @@
-import { Inter } from "next/font/google";
+import { Special_Elite } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const special_Elite = Special_Elite({ subsets: ["latin"], weight: '400' });
 
 export const metadata = {
   title: "Create Next App",
@@ -11,7 +11,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${special_Elite.className} bg-[#0b1215] max-w-[84rem]`}>
+        {children}
+      </body>
     </html>
   );
 }
