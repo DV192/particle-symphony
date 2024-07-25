@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Particle Symphony: A Visual Orchestration ✨
+
+[![Particle Symphony Preview](public/assets/particle-symphony-screenshot.png)](https://particle-symphony.vercel.app/)
+
+**Particle Symphony** is a captivating exploration of the intersection between music and technology. Immerse yourself in a captivating world of sound and sight. Witness a symphony of particles as they transform from melodic notes to cosmic landscapes. Built with cutting-edge technologies like Next.js, Three.js, and React Three Fiber, this interactive experience invites you to explore the boundaries of music and art.
+
+## Key Features:
+
+- **Immersive Particle Effects:** Experience a symphony of particles morphing through various stages, from music notes to a cosmic explosion.
+- **Interactive Exploration:** Engage with the art by scrolling through the different stages of the particle transformation.
+- **Cutting-Edge Technology:** Built with Next.js, Three.js, React Three Fiber, React Three Drei, Custom Shader Materials, and GSAP, this project showcases the latest web development techniques.
+
+## Built With
+
+- [Next.js](https://nextjs.org/) (Frontend Framework)
+- HTML & CSS (Structure and Styling)
+- JavaScript (Interactivity)
+- [Tailwind CSS](https://tailwindcss.com/) (Utility-First CSS Framework)
+- [React Three Fiber](https://docs.pmnd.rs/react-three-fiber/getting-started/introduction) (3D Graphics Library)
+- [React Three Drei](https://github.com/pmndrs/drei)
+- Custom Shader Materials
+- [React Intersection Observer](https://react-intersection-observer.vercel.app/?path=/docs/intro--docs)
+- [GSAP](https://gsap.com/) (Animation Library)
 
 ## Getting Started
 
-First, run the development server:
+To get a local copy of this project up and running, follow these steps:
+
+### Prerequisites
+
+Make sure you have Node.js installed.
+
+### Installation
+
+Clone the repository and install dependencies.
+
+```bash
+git clone https://github.com/DV192/particle-symphony.git
+cd particle-symphony
+npm install
+```
+
+### Usage
+
+Start the development server.
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Visit http://localhost:3000 in your browser.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Project Inspiration
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+This project was inspired by the incredible work of [Mister&Prada](https://github.com/MisterPrada) on their repository, [morph-particles](https://github.com/MisterPrada/morph-particles). Their innovative approach to using Three.js and Custom Shader Materials for particle effects greatly influenced the development of Particle Symphony.
 
-## Learn More
+## Deployment
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This project is deployed on [Vercel](https://vercel.com/). Visit the live version [here](https://particle-symphony.vercel.app/).
