@@ -8,14 +8,14 @@ const LandingPage = () => {
   return (
     <div className='w-full h-full bg-transparent fixed top-0 bottom-0 left-0 right-0 z-20'>
       <div className='fixed top-0 left-0 bottom-0 right-0 z-10'
-        style={{background: 'linear-gradient(to bottom, rgba(82, 82, 82, 0) 0%, rgba(0, 0, 0, 0.2) 100%)'}}
+        style={{ background: 'linear-gradient(to bottom, rgba(82, 82, 82, 0) 0%, rgba(0, 0, 0, 0.2) 100%)' }}
       ></div>
       <Canvas>
         <ambientLight intensity={1.5} />
         <directionalLight intensity={10} position={[1.0, 0, -1]} />
         <spotLight position={[0, 4, 4]} intensity={200} distance={15} angle={0.5} penumbra={1} decay={1} />
 
-        <ScrollControls pages={5} damping={0.25} style={{zIndex: '20'}}>
+        <ScrollControls pages={5} damping={0.25} style={{ zIndex: '20' }}>
           <PresentationControls
             global
             config={{ mass: 2, tension: 500 }}
